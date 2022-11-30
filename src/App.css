@@ -1,0 +1,199 @@
+.banner {
+
+  margin-top: 50px;
+  background: linear-gradient(270.81deg, #C1E7EF 60.49%, #E0F0FF 100%);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+img {
+
+  float: right;
+  margin-top: 13px;
+  display: block;
+  width: 300px;
+
+}
+
+.h1 {
+  font-family: sans-serif;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 40px;
+  max-width: 1500px;
+  position: relative;
+
+}
+
+.h1:before {
+  content: "";
+  display: block;
+  width: 450px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.h1:after {
+  content: "";
+  display: block;
+  width: 450px;
+  height: 2px;
+  background: rgb(68, 68, 68);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+span {
+  background: rgb(102, 102, 102)
+}
+
+
+.card1 {
+  background: #F5F3D9;
+  border-radius: 3px;
+  padding: 50px;
+
+}
+
+
+.card2 {
+  background: #EDE7FF;
+  border-radius: 3px;
+  padding: 50px;
+
+}
+
+.card3 {
+  background: #E9F5E7;
+  border-radius: 3px;
+  padding: 50px;
+
+}
+
+.form-group {
+  margin-top: 50px;
+}
+
+.form-control {
+  width: 80%;
+  float: right;
+}
+
+.box {
+  margin-top: 80px;
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+
+.h2 {
+  font-family: sans-serif;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 40px;
+  max-width: 1500px;
+  position: relative;
+
+}
+
+.h2:before {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.h2:after {
+  content: "";
+  display: block;
+  width: 600px;
+  height: 2px;
+  background: rgb(68, 68, 68);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+span {
+  background: rgb(102, 102, 102)
+}
+
+.btn1{
+  padding: 10px;
+  margin-left: 10px;
+  width: 100px;
+  background-color: rgb(211, 117, 9);
+color:#E9F5E7;
+}
+
+.btn2{
+  padding: 10px;
+  margin-left: 10px;
+  width: 100px;
+  background-color: rgb(0, 97, 0);
+color:#E9F5E7;
+}
+
+.mr-sm-2{
+  padding: 20px;
+  width: auto;
+  height: 40px;
+}
+
+.Link{
+  display: flex;
+  
+}
+
+
+.status{
+  margin-top: 50px;
+}
+
+.head{
+  font-size: 20px;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height:1000px;
+ }
+ .App{
+  color: #228b22;
+  text-align: center;
+ }
+ 
+ .footer {
+  background-color: rgb(0, 0, 0);
+ 
+  /* position: fixed; */
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+ }
+ 
